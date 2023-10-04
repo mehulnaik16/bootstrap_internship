@@ -4,3 +4,9 @@ nav{
 .navbar{
     color: #4b4a5a;
 }
+.avatar{
+    margin-bottom: -5.3%;
+    margin-left: 8%;
+    height: 100%;
+    width: 100%;
+}
