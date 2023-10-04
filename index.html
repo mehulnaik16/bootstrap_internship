@@ -4,8 +4,279 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0ee06a734b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+
 </head>
 <body>
-    <h1>portfolio</h1>
+    <div id="about">
+        <nav class="navbar navbar-expand-lg   fixed-top   ">
+            <div class="container-fluid ">
+              <a class="navbar-brand mx-2  fs-2 fw-semibold text-light text-uppercase" href="#">Portfolio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end p-2 " id="navbarNavDropdown">
+                <ul class="navbar-nav me-5  ">
+                  <li class="nav-item me-2 ">
+                    <a class="nav-link  text-light  "  aria-current="page" href="#">About</a>
+                  </li>
+                  <li class="nav-item me-2">
+                    <a class="nav-link text-light" href="#">Skills</a>
+                  </li>
+                  <li class="nav-item me-2">
+                    <a class="nav-link text-light" href="#">Experience</a>
+                  </li>
+                  <li class="nav-item me-2">
+                    <a class="nav-link text-light" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <!-- about section-->
+
+    <section class="section bg-body-tertiary    m-5  rounded-5  py-3 " id="about">
+      <div class="container">
+          <div class="row align-items-center flex-row-reverse">
+            <div class="col-lg-6 col-sm-12  ">
+              <div class="about-avatar p-3 mx-2">
+                <img src="imgs/profile.png"  alt="" class="img-fluid d-none d-sm-block p-3 mx-5" >
+              </div>
+          </div>
+              <div class="col-lg-6">
+                  <div class="about-text go-to">
+                      <h3 class="dark-color"><b><u>About Me</u></b></h3>
+                      <h6 class="theme-color lead">Im Mehul Naik Python development and DBMS crafting dynamic digital solutions.</h6>
+                      <p>I enjoy harnessing the power of Python to create dynamic and efficient web solutions while ensuring robust database functionality. My expertise lies in seamlessly blending these skills to deliver high-quality digital experiences.</p>
+                      <div class="row about-list">
+                          <div class="col-md-6">
+                              <div class=" ">
+                                  <label><b>Birthdate</b>  <i class="fa-regular fa-calendar-days"></i></label>
+                                  <p>16 May 2002</p>
+                              </div>
+                              <div class=" ">
+                                  <label><b>Age</b>  <i class="fa-solid fa-hand-peace"></i></label>
+                                  <p>21 Yr</p>
+                              </div>
+                              <div class=" ">
+                                  <label><b>Residence</b>  <i class="fa-solid fa-house"></i> </label>
+                                  <p>Banglore,India</p>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class=" ">
+                                  <label><b>E-mail</b> <i class="fa-solid fa-envelope"></i></label>
+                                  <p><a class="link-success  linklink-offset-2 link-underline link-underline-opacity-0" href="mailto:recipient@example.com">mehulnaik16@gmail.com</a></p>
+                              </div>
+                              <div class=" ">
+                                  <label><b>Phone</b> <i class="fa-solid fa-phone"></i></label>
+                                  <p>6361631757</p>
+                              </div>
+                              <div class=" ">
+                                  <label><b>Github</b>  <i class="fa-brands fa-github fa-xl "></i></label>
+                                  <p><a class="link-success  linklink-offset-2 link-underline link-underline-opacity-0 " href="https://github.com/mehulnaik16">mehulnaik16</a></p>
+                              </div>
+                              
+                          </div>
+                          <a href="https://drive.google.com/file/d/1lfQAKP1hSYqTA7d32ac9WSotNO-ZjdtS/view?usp=drive_link"><button class="btn btn-outline-success " type="button">Download CV</button></a>
+
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+          
+      </div>
+  </section>    
+    <!-- skills seciton-->
+    
+    <section class="container mt-5">
+      <h2 class="text-center mb-4"> Main Skills</h2>
+      <div class="row my-3 ">
+          <div class="col-md-3 ">
+              <div class="card">
+                  <div class="card-body text-bg-dark rounded-2 text-center ">
+                      <h5 class="card-title">Python <i class="fa-brands fa-python fa-xl"></i></h5>
+                      
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3 ">
+            <div class="card">
+                <div class="card-body text-bg-dark rounded-2 text-center">
+                    <h5 class="card-title">C++ <i class="fa-solid fa-c fa-lg"></i></h5>
+                </div>
+            </div>
+        </div>
+          
+          <div class="col-md-3">
+              <div class="card">
+                  <div class="card-body text-bg-dark rounded-2 text-center">
+                      <h5 class="card-title">TailwindCSS  <i class="fa-solid fa-water fa-lg"></i></h5>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3 ">
+            <div class="card">
+                <div class="card-body text-bg-dark rounded-2 text-center">
+                    <h5 class="card-title">Bootstrap   <i class="fa-brands fa-bootstrap"></i></h5>
+                </div>
+            </div>
+        </div>
+        <div><br></div>
+          <div class="col-md-3">
+              <div class="card">
+                  <div class="card-body text-bg-dark rounded-2 text-center" >
+                      <h5 class="card-title">SQL  <i class="fa-solid fa-server fa-lg"></i></h5>
+                  </div>
+              </div>
+          </div>
+          
+        <div class="col-md-3 ">
+          <div class="card">
+              <div class="card-body text-bg-dark rounded-2 text-center">
+                  <h5 class="card-title">DBMS  <i class="fa-solid fa-database fa-xl"></i></h5>
+              </div>
+          </div>
+      </div>
+      
+    <div class="col-md-3  ">
+      <div class="card">
+          <div class="card-body text-bg-dark rounded-2 text-center">
+              <h5 class="card-title">Node.js  <i class="fa-brands fa-node fa-lg "></i></h5>
+          </div>
+      </div>
+  </div>
+  <div class="col-md-3  ">
+    <div class="card">
+        <div class="card-body text-bg-dark rounded-2 text-center ">
+            <h5 class="card-title">MsOffice  <i class="fa-brands fa-microsoft"></i></h5>
+        </div>
+    </div>
+</div>    
+      </div>
+  </section>
+
+
+  <!--certification section-->
+  <section class="container mt-5">
+    <h2 class="text-center mb-4 pb-4">Certifications</h2>
+    <!-- Certification 1 -->
+    <div class="row">
+        <!-- Text Column -->
+        <div class="col-md-6 mb-4 text-center">
+            <h3 class="mb-4">Python Courses Completed</h3>
+            <ul class="list-group ">
+                <li class="list-group-item">Python Classes and Inheritance</li>
+                <li class="list-group-item">Python Project: pillow, tesseract, and opencv</li>
+                <li class="list-group-item">Python Basics</li>
+                <li class="list-group-item">Data Collection and Processing with Python</li>
+                <li class="list-group-item">Python Functions, Files, and Dictionaries</li>
+            </ul>
+            
+        </div>
+
+        <!-- Certificate Column -->
+        <div class="col-md-6 mb-4">
+            <!-- Certificate 1 -->
+            <div class="card mb-4">
+                <img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~KU67RD6Y9PBW/CERTIFICATE_LANDING_PAGE~KU67RD6Y9PBW.jpeg" class="card-img-top certificate-image" alt="Python Certificate">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Python Certification</h5>
+                    <h5>University of Michigan</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Certification 2 -->
+    <div class="row">
+        <!-- Text Column -->
+        <div class="col-md-6 mb-4 text-center">
+            <h3 class="mb-4">Databases and SQL for Data Science with Python</h3>
+            <p>"I am excited to share that I have successfully completed a comprehensive SQL and database course. This experience has equipped me with a strong foundation in database management, query optimization, and data manipulation using SQL."</p>
+            <!-- Add your list of completed courses for this certification here -->
+        </div>
+
+        <!-- Certificate Column -->
+        <div class="col-md-6 mb-4">
+            <!-- Certificate 2 -->
+            <div class="card mb-4">
+                <img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~2A9KZW7PS68K/CERTIFICATE_LANDING_PAGE~2A9KZW7PS68K.jpeg" class="card-img-top certificate-image" alt="Certificate 2">
+                <div class="card-body text-center">
+                    <h5 class="card-title">DBMS certificaiton</h5>
+                    <!-- Add additional details for this certification here -->
+                    <h5 class="mb-4">Databases and SQL for Data Science with Python</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</section>
+<!-- social media-->
+<section class="container mt-5">
+  <!-- Other sections of your CV -->
+
+  <!-- Social Media Section -->
+  <div class="row">
+      <div class="col-md-6 mx-auto text-center">
+          <h4>Connect with me on social media:</h4>
+          <ul class="list-inline">
+              <!-- Replace the links with your social media profiles -->
+              <li class="list-inline-item">
+                  <a href="https://www.linkedin.com/in/your-profile" target="_blank" class="btn btn-outline-primary">
+                      <i class="fab fa-linkedin"></i> LinkedIn
+                  </a>
+              </li>
+              <li class="list-inline-item">
+                  <a href="https://www.twitter.com/your-profile" target="_blank" class="btn btn-outline-info">
+                      <i class="fab fa-twitter"></i> Twitter
+                  </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.github.com/your-profile" target="_blank" class="btn btn-outline-dark">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </li>
+            <!-- WhatsApp -->
+            <li class="list-inline-item">
+                <a href="https://wa.me/1234567890" target="_blank" class="btn btn-outline-success">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+            </li>
+              <!-- Add more social media profiles as needed -->
+          </ul>
+      </div>
+  </div>
+</section>
+<!--contact form-->
+<div class="container bg-secondary-subtle   mt-5 mb-5 p-5 rounded-4 ">
+  <h2 class="text-center">Contact </h2>
+  <form>
+      <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+      </div>
+      <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Enter your message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+<footer class="bg-dark text-light text-center py-3">
+  <div class="container">
+      <p>&copy; mehulnaik</p>
+  </div>
+</footer>
 </body>
 </html>
